@@ -1,0 +1,22 @@
+<!doctype html>
+<html lang="ko">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>더블제로 카드 플립</title>
+  <link rel="stylesheet" href="card.css">
+  <script type="module" src="card.js"></script>
+</head>
+<body>
+  <main>
+    <button class="card" type="button" aria-label="더블제로 카드 뒷면 보기"
+            aria-pressed="false" disabled>
+      <span class="card__turn" aria-hidden="true">
+        <span class="card__face card__front"></span>
+        <span class="card__face card__back"><img alt=""></span>
+      </span>
+    </button>
+    <p class="load-error" role="alert" hidden>카드 이미지를 불러오지 못했습니다.</p>
+  </main>
+</body>
+</html>
